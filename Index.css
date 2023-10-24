@@ -19,6 +19,7 @@
     margin: 0 auto;
     background-color: blue;
 }
+<<<<<<< HEAD
 
 .Logo-container {
     height: 100%;
@@ -28,4 +29,6 @@
 
 .Logo-container h1{
     color: white;
+    height: 100%;
 }
+
