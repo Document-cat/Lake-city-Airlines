@@ -19,3 +19,13 @@
     margin: 0 auto;
     background-color: blue;
 }
+
+.Logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.Logo-container h1{
+    color: white;
+}
