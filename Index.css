@@ -1,43 +1,42 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.Header{
+.header {
+    height: 100vh;
     width: 100%;
-    height: 500px;
-    display: block;
-    background-color: black;
+    padding: 0 8%;
+    background: #080008;
+    position: relative;
 }
 
-.Inner-header{
-    width: 90%;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-    background-color: blue;
-}
-<<<<<<< HEAD
-
-.Logo-container {
-    height: 100%;
-    display: table;
-    float: left;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
 }
 
-.Logo-container h1{
-    color: white;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: Impact;
-    font-size: large;
-    font-weight: 200;
+.logo{
+    width: 140px;
+
 }
 
-.Logo-container h1 span {
-    font-weight: 800;
+.nav-links {
+    padding: 28px;
+
 }
 
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 5px 0;
+}
