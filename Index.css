@@ -22,7 +22,7 @@ nav{
 
 .logo{
     width: 140px;
-
+    color: aqua;
 }
 
 .nav-links {
@@ -39,4 +39,20 @@ nav{
     text-decoration: none;
     color:aliceblue;
     padding: 5px 0;
+    position: relative;
+}
+
+.nav-links li a::after{
+    content: '';
+    background:#ff3d00;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: ease-in-out;
+}
+
+.nav-links li a:hover ::after {
+    width: 100%;
 }
