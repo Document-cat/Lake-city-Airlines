@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
 
 /*header*/
@@ -72,5 +72,5 @@ nav{
 }
 
 .img1 {
-    width: 40vw;
+    width: 40%;
 }
