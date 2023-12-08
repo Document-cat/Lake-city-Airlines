@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f0f8ff;
+
 }
 
 /*header*/
@@ -69,8 +69,10 @@ nav{
 .block1 {
     display: flex;
     background-color: rgb(3, 0, 64);
+    color: aliceblue;
+    padding: 10%;
 }
 
 .img1 {
-    width: 40%;
+    width: 50%;
 }
