@@ -9,8 +9,10 @@ body {
     background-color: aqua;
 }
 
+/*header*/
+
 .header {
-    height: 100vh;
+    height: 20vh;
     width: 100%;
     padding: 0 8%;
     background: #080008;
@@ -27,6 +29,7 @@ nav{
 .logo{
     width: 220px;
     color: aliceblue;
+    font-family: Impact;
 }
 
 .nav-links {
@@ -60,3 +63,10 @@ nav{
 .nav-links li a:hover ::after {
     width: 100%;
 }
+
+/*block 1 below header*/
+
+.block1 {
+    
+}
+
