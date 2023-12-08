@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: aliceblue;
 }
 
 /*header*/
 
 .header {
-    height: 20vh;
+    height: 10vh;
     width: 100%;
     padding: 0 8%;
     background: #080008;
@@ -67,6 +67,10 @@ nav{
 /*block 1 below header*/
 
 .block1 {
-    
+    display: flex;
+    background-color: rgb(3, 0, 64);
 }
 
+.img1 {
+    width: 40vw;
+}
